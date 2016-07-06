@@ -1,0 +1,14 @@
+//
+//  chatKitDemo.pch
+//  CSChatKitDemo
+//
+//  Created by wangchengshan on 16/7/6.
+//  Copyright © 2016年 WCS. All rights reserved.
+//
+
+#ifndef chatKitDemo_pch
+#define chatKitDemo_pch
+
+#import "CSChatKit.h"
+
+#endif /* chatKitDemo_pch */

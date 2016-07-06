@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE726E231D2C8D92000DB599 /* CSChatToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EE726E221D2C8D92000DB599 /* CSChatToolBar.m */; };
+		EE726E291D2C8DD2000DB599 /* CSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE726E281D2C8DD2000DB599 /* CSMessage.m */; };
+		EE726E2C1D2C8DF2000DB599 /* CSMessageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE726E2B1D2C8DF2000DB599 /* CSMessageHelper.m */; };
+		EE726E2F1D2C8E25000DB599 /* CSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EE726E2E1D2C8E25000DB599 /* CSConst.m */; };
+		EE726E321D2CDD40000DB599 /* CSConnectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE726E311D2CDD40000DB599 /* CSConnectListViewController.m */; };
+		EE726E351D2CDED0000DB599 /* CSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE726E341D2CDED0000DB599 /* CSChatViewController.m */; };
+		EE726E381D2CDF1E000DB599 /* CSChatMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE726E371D2CDF1E000DB599 /* CSChatMessageViewController.m */; };
+		EE726E3B1D2CDF7A000DB599 /* CSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE726E3A1D2CDF7A000DB599 /* CSTableViewController.m */; };
+		EE726E3F1D2CEE65000DB599 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE726E3E1D2CEE65000DB599 /* resource.bundle */; };
+		EE83CD791D2BBA0600E21CCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE83CD781D2BBA0600E21CCD /* main.m */; };
+		EE83CD7C1D2BBA0600E21CCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE83CD7B1D2BBA0600E21CCD /* AppDelegate.m */; };
+		EE83CD841D2BBA0600E21CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE83CD831D2BBA0600E21CCD /* Assets.xcassets */; };
+		F5A47A715647E6B8F6DA37D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9185B3EB036BAA356F487EC4 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		358B0B5CB65E4CDFE26C0C19 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		66F92D7BE7204C724BA158F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9185B3EB036BAA356F487EC4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE726E211D2C8D92000DB599 /* CSChatToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSChatToolBar.h; sourceTree = "<group>"; };
+		EE726E221D2C8D92000DB599 /* CSChatToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSChatToolBar.m; sourceTree = "<group>"; };
+		EE726E271D2C8DD2000DB599 /* CSMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMessage.h; sourceTree = "<group>"; };
+		EE726E281D2C8DD2000DB599 /* CSMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMessage.m; sourceTree = "<group>"; };
+		EE726E2A1D2C8DF2000DB599 /* CSMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMessageHelper.h; sourceTree = "<group>"; };
+		EE726E2B1D2C8DF2000DB599 /* CSMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMessageHelper.m; sourceTree = "<group>"; };
+		EE726E2D1D2C8E25000DB599 /* CSConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSConst.h; sourceTree = "<group>"; };
+		EE726E2E1D2C8E25000DB599 /* CSConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSConst.m; sourceTree = "<group>"; };
+		EE726E301D2CDD40000DB599 /* CSConnectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSConnectListViewController.h; sourceTree = "<group>"; };
+		EE726E311D2CDD40000DB599 /* CSConnectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSConnectListViewController.m; sourceTree = "<group>"; };
+		EE726E331D2CDED0000DB599 /* CSChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSChatViewController.h; sourceTree = "<group>"; };
+		EE726E341D2CDED0000DB599 /* CSChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSChatViewController.m; sourceTree = "<group>"; };
+		EE726E361D2CDF1E000DB599 /* CSChatMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSChatMessageViewController.h; sourceTree = "<group>"; };
+		EE726E371D2CDF1E000DB599 /* CSChatMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSChatMessageViewController.m; sourceTree = "<group>"; };
+		EE726E391D2CDF7A000DB599 /* CSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTableViewController.h; sourceTree = "<group>"; };
+		EE726E3A1D2CDF7A000DB599 /* CSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTableViewController.m; sourceTree = "<group>"; };
+		EE726E3E1D2CEE65000DB599 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		EE726E401D2CF43B000DB599 /* CSChatKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSChatKit.h; sourceTree = "<group>"; };
+		EE726E431D2CF49E000DB599 /* chatKitDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatKitDemo.pch; sourceTree = "<group>"; };
+		EE83CD741D2BBA0600E21CCD /* CSChatKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSChatKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE83CD781D2BBA0600E21CCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE83CD7A1D2BBA0600E21CCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE83CD7B1D2BBA0600E21CCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE83CD831D2BBA0600E21CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE83CD881D2BBA0600E21CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE83CD711D2BBA0600E21CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A47A715647E6B8F6DA37D2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		651E88C930A9C3331DA77A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9185B3EB036BAA356F487EC4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE726E1D1D2C8D33000DB599 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EE726E211D2C8D92000DB599 /* CSChatToolBar.h */,
+				EE726E221D2C8D92000DB599 /* CSChatToolBar.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EE726E1E1D2C8D43000DB599 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE726E361D2CDF1E000DB599 /* CSChatMessageViewController.h */,
+				EE726E371D2CDF1E000DB599 /* CSChatMessageViewController.m */,
+				EE726E391D2CDF7A000DB599 /* CSTableViewController.h */,
+				EE726E3A1D2CDF7A000DB599 /* CSTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		EE726E1F1D2C8D54000DB599 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EE726E271D2C8DD2000DB599 /* CSMessage.h */,
+				EE726E281D2C8DD2000DB599 /* CSMessage.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EE726E201D2C8D63000DB599 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				EE726E2A1D2C8DF2000DB599 /* CSMessageHelper.h */,
+				EE726E2B1D2C8DF2000DB599 /* CSMessageHelper.m */,
+				EE726E2D1D2C8E25000DB599 /* CSConst.h */,
+				EE726E2E1D2C8E25000DB599 /* CSConst.m */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		EE726E3D1D2CEE51000DB599 /* recource */ = {
+			isa = PBXGroup;
+			children = (
+				EE726E3E1D2CEE65000DB599 /* resource.bundle */,
+			);
+			path = recource;
+			sourceTree = "<group>";
+		};
+		EE83CD6B1D2BBA0600E21CCD = {
+			isa = PBXGroup;
+			children = (
+				EE83CD8E1D2BBA2D00E21CCD /* CSChatKit */,
+				EE83CD761D2BBA0600E21CCD /* CSChatKitDemo */,
+				EE83CD751D2BBA0600E21CCD /* Products */,
+				F2ECBCD2ED1DA3FB918DABBD /* Pods */,
+				651E88C930A9C3331DA77A9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE83CD751D2BBA0600E21CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE83CD741D2BBA0600E21CCD /* CSChatKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE83CD761D2BBA0600E21CCD /* CSChatKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE83CD7A1D2BBA0600E21CCD /* AppDelegate.h */,
+				EE83CD7B1D2BBA0600E21CCD /* AppDelegate.m */,
+				EE726E301D2CDD40000DB599 /* CSConnectListViewController.h */,
+				EE726E311D2CDD40000DB599 /* CSConnectListViewController.m */,
+				EE726E331D2CDED0000DB599 /* CSChatViewController.h */,
+				EE726E341D2CDED0000DB599 /* CSChatViewController.m */,
+				EE83CD831D2BBA0600E21CCD /* Assets.xcassets */,
+				EE83CD881D2BBA0600E21CCD /* Info.plist */,
+				EE83CD771D2BBA0600E21CCD /* Supporting Files */,
+				EE726E431D2CF49E000DB599 /* chatKitDemo.pch */,
+			);
+			path = CSChatKitDemo;
+			sourceTree = "<group>";
+		};
+		EE83CD771D2BBA0600E21CCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE83CD781D2BBA0600E21CCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE83CD8E1D2BBA2D00E21CCD /* CSChatKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE726E401D2CF43B000DB599 /* CSChatKit.h */,
+				EE726E3D1D2CEE51000DB599 /* recource */,
+				EE726E201D2C8D63000DB599 /* helper */,
+				EE726E1F1D2C8D54000DB599 /* model */,
+				EE726E1D1D2C8D33000DB599 /* view */,
+				EE726E1E1D2C8D43000DB599 /* controller */,
+			);
+			name = CSChatKit;
+			path = ../CSChatKit;
+			sourceTree = "<group>";
+		};
+		F2ECBCD2ED1DA3FB918DABBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				358B0B5CB65E4CDFE26C0C19 /* Pods.debug.xcconfig */,
+				66F92D7BE7204C724BA158F0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE83CD731D2BBA0600E21CCD /* CSChatKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE83CD8B1D2BBA0600E21CCD /* Build configuration list for PBXNativeTarget "CSChatKitDemo" */;
+			buildPhases = (
+				6A58DC971D30AC21BD4AAD94 /* Check Pods Manifest.lock */,
+				EE83CD701D2BBA0600E21CCD /* Sources */,
+				EE83CD711D2BBA0600E21CCD /* Frameworks */,
+				EE83CD721D2BBA0600E21CCD /* Resources */,
+				98709FFC1CBB00524D9C9732 /* Embed Pods Frameworks */,
+				85019326BDD8AC5BC1850F9D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSChatKitDemo;
+			productName = CSChatKitDemo;
+			productReference = EE83CD741D2BBA0600E21CCD /* CSChatKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE83CD6C1D2BBA0600E21CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WCS;
+				TargetAttributes = {
+					EE83CD731D2BBA0600E21CCD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EE83CD6F1D2BBA0600E21CCD /* Build configuration list for PBXProject "CSChatKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE83CD6B1D2BBA0600E21CCD;
+			productRefGroup = EE83CD751D2BBA0600E21CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE83CD731D2BBA0600E21CCD /* CSChatKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE83CD721D2BBA0600E21CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE83CD841D2BBA0600E21CCD /* Assets.xcassets in Resources */,
+				EE726E3F1D2CEE65000DB599 /* resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A58DC971D30AC21BD4AAD94 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85019326BDD8AC5BC1850F9D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98709FFC1CBB00524D9C9732 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE83CD701D2BBA0600E21CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE726E381D2CDF1E000DB599 /* CSChatMessageViewController.m in Sources */,
+				EE726E2F1D2C8E25000DB599 /* CSConst.m in Sources */,
+				EE726E291D2C8DD2000DB599 /* CSMessage.m in Sources */,
+				EE726E3B1D2CDF7A000DB599 /* CSTableViewController.m in Sources */,
+				EE726E351D2CDED0000DB599 /* CSChatViewController.m in Sources */,
+				EE83CD7C1D2BBA0600E21CCD /* AppDelegate.m in Sources */,
+				EE726E321D2CDD40000DB599 /* CSConnectListViewController.m in Sources */,
+				EE83CD791D2BBA0600E21CCD /* main.m in Sources */,
+				EE726E2C1D2C8DF2000DB599 /* CSMessageHelper.m in Sources */,
+				EE726E231D2C8D92000DB599 /* CSChatToolBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE83CD891D2BBA0600E21CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE83CD8A1D2BBA0600E21CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE83CD8C1D2BBA0600E21CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358B0B5CB65E4CDFE26C0C19 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = CSChatKitDemo/chatKitDemo.pch;
+				INFOPLIST_FILE = CSChatKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WCS.CSChatKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE83CD8D1D2BBA0600E21CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F92D7BE7204C724BA158F0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = CSChatKitDemo/chatKitDemo.pch;
+				INFOPLIST_FILE = CSChatKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WCS.CSChatKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE83CD6F1D2BBA0600E21CCD /* Build configuration list for PBXProject "CSChatKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE83CD891D2BBA0600E21CCD /* Debug */,
+				EE83CD8A1D2BBA0600E21CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE83CD8B1D2BBA0600E21CCD /* Build configuration list for PBXNativeTarget "CSChatKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE83CD8C1D2BBA0600E21CCD /* Debug */,
+				EE83CD8D1D2BBA0600E21CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE83CD6C1D2BBA0600E21CCD /* Project object */;
+}
